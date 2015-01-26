@@ -8,5 +8,6 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.requires_arc = true
   spec.source_files = 'SKSTableView'
-  spec.exclude_files = 'SKSTableView/AppDelegate.{h,m}', 'SKSTableView/main.m'
+  spec.exclude_files = 'SKSTableView/AppDelegate.{h,m}', 'SKSTableView/main.m',
+    'SKSTableView/ViewController.{h,m}'
 end
